@@ -1,0 +1,60 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/0ttpn1s.jpg",
+        "title": "十穀咖哩飯",
+        "text": "(\b15分鐘快速料理)",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "FB",
+            "uri": "https://www.facebook.com/yiyi0719/"
+          },
+          {
+            "type": "postback",
+            "label": "食材",
+            "text": "十穀咖哩飯食材",
+            "data": "folder=list_01"
+          },
+          {
+            "type": "postback",
+            "label": "料理步驟",
+            "text": "十穀咖哩飯料理步驟",
+            "data": "folder=list_01_image"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/FZNq33u.jpg",
+        "title": "白菜豆腐煲",
+        "text": "娃娃菜清甜,豆腐煎過香氣濃郁,吸附鮮美湯汁,營養又下飯,簡單又美味!",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "FB:小潔的廚房記事",
+            "uri": "https://www.facebook.com/tina3898433/"
+          },
+          {
+            "type": "postback",
+            "label": "食材",
+            "text": "白菜豆腐煲食材",
+            "data": "folder=list_02"
+          },
+          {
+            "type": "postback",
+            "label": "料理步驟",
+            "text": "白菜豆腐煲食材料理步驟",
+            "data": "folder=list_02_image"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

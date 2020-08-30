@@ -1,0 +1,63 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_index",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1240,
+        "height": 662
+      },
+      "action": {
+        "type": "postback",
+        "text": "健康瘦身",
+        "data": "folder=healthy_cuisine"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1342,
+        "y": 0,
+        "width": 1158,
+        "height": 667
+      },
+      "action": {
+        "type": "postback",
+        "text": "家常料理",
+        "data": "folder=Home_cooking"
+      }
+    },
+    {
+      "bounds": {
+        "x": 0,
+        "y": 1028,
+        "width": 1239,
+        "height": 658
+      },
+      "action": {
+        "type": "postback",
+        "text": "異國料理",
+        "data": "folder=Exotic_cuisine"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1331,
+        "y": 1026,
+        "width": 1169,
+        "height": 660
+      },
+      "action": {
+        "type": "postback",
+        "text": "離開",
+        "data": "menu=rich_menu_end"
+      }
+    }
+  ]
+}

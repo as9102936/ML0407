@@ -1,0 +1,18 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "uri",
+        "label": "我的座標",
+        "uri": "line://nv/location"
+      }
+    ],
+    "title": "動作",
+    "text": "下面的按鈕會觸發功能"
+  }
+}
+]

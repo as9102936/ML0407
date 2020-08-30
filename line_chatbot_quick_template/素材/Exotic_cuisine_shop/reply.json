@@ -1,0 +1,25 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "店家地址",
+        "text": "店家地址",
+        "data": "folder=lcotion"
+      },
+      {
+        "type": "uri",
+        "label": "FB:季吉GG韓國餐館",
+        "uri": "https://www.facebook.com/GG27132552/"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/pAGcFl0.jpg",
+    "title": "季吉GG韓國餐館",
+    "text": "營業時間:11:30-14:30,17:30-21:30"
+  }
+}
+]

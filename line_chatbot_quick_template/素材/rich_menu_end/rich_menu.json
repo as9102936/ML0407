@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_end",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 8,
+        "y": 0,
+        "width": 2492,
+        "height": 1686
+      },
+      "action": {
+        "type": "postback",
+        "text": "離開",
+        "data": "folder=料理"
+      }
+    }
+  ]
+}

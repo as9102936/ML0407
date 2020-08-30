@@ -1,0 +1,60 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/Soxt4Cs.jpg",
+        "title": "花椰菜炒香菇",
+        "text": "簡易家常菜～",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "薇薇安的家常料理",
+            "uri": "https://icook.tw/users/VivianWu625"
+          },
+          {
+            "type": "postback",
+            "label": "食材",
+            "text": "花椰菜炒香菇食材",
+            "data": "folder=list_001"
+          },
+          {
+            "type": "postback",
+            "label": "料理步驟",
+            "text": "花椰菜炒香菇料理步驟",
+            "data": "folder=list_001_image"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/Eo0y1aO.jpg",
+        "title": "蒜苗肉片湯",
+        "text": "家常湯品~",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "薇薇安的家常料理",
+            "uri": "https://icook.tw/users/VivianWu625"
+          },
+          {
+            "type": "postback",
+            "label": "食材",
+            "text": "蒜苗肉片湯食材",
+            "data": "folder=list_002"
+          },
+          {
+            "type": "postback",
+            "label": "料理步驟",
+            "text": "蒜苗肉片湯料理步驟",
+            "data": "folder=list_002_image"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

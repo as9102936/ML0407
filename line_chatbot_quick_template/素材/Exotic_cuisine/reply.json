@@ -1,0 +1,50 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/kJBIVHZ.jpg",
+        "title": "韓式海鮮煎餅",
+        "text": "到韓式料理餐廳必點的海鮮煎餅",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "推薦店家",
+            "text": "推薦店家",
+            "data": "folder=Exotic_cuisine_shop"
+          },
+          {
+            "type": "postback",
+            "label": "材料",
+            "text": "韓式海鮮煎餅材料",
+            "data": "folder=Exotic_cuisine_01"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i.imgur.com/ZAmvbQV.jpg",
+        "title": "泰式打拋豬",
+        "text": "扒完三碗飯!",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "食材",
+            "text": "泰式打拋豬食材",
+            "data": "folder=Exotic_cuisine_02"
+          },
+          {
+            "type": "postback",
+            "label": "料理步驟",
+            "text": "泰式打拋豬料理步驟",
+            "data": "folder=Exotic_cuisine_02_image"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

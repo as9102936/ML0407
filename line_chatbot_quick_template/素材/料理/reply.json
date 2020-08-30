@@ -1,0 +1,26 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "料理",
+        "text": "食譜",
+        "data": "menu=rich_menu_index"
+      },
+      {
+        "type": "postback",
+        "label": "離開",
+        "text": "料理好麻煩喔",
+        "data": "menu=rich_menu_end"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/S6qKLNw.jpg",
+    "title": "想要做哪種料理呢?",
+    "text": "選擇料理 or 離開"
+  }
+}
+]

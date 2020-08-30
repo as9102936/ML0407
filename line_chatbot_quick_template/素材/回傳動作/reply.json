@@ -1,0 +1,24 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "明暗個傳一次",
+        "text": "炳宏",
+        "data": "tag=aemo|ai"
+      },
+      {
+        "type": "message",
+        "label": "動作 2",
+        "text": "動作 2"
+      }
+    ],
+    "title": "回傳",
+    "text": "PostbackAction"
+  }
+}
+]
